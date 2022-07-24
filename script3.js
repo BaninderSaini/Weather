@@ -1,6 +1,6 @@
 var any;
 let weather2 = {
-    apiKey: "44fcc504c7f7714bf491d4c0714dedb7",
+    apiKey: apiKey: " ",//Insert your Api key within quotes 
     fetchWeatherExtra: function (city) {
       fetch(
         "https://api.openweathermap.org/data/2.5/forecast?q="+city+"&appid="+this.apiKey+"&units=metric&exclude=hourly"
