@@ -1,7 +1,7 @@
 var lonvalue;
 var latvalue;
 let weather = {
-    apiKey: "44fcc504c7f7714bf491d4c0714dedb7",
+    apiKey: " ",//Inert your Api key within quotes 
     fetchWeather: function (city) {
       fetch(
         "https://api.openweathermap.org/data/2.5/weather?q=" +
