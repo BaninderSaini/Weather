@@ -1,7 +1,7 @@
 latvalue=28.6667;
 lonvalue=77.2167;
 let weather1 = {
-    apiKey: "OKLZTS6GD4HF",
+    apiKey: apiKey: " ",//Inert your Api key within quotes 
     fetchTime: function (city) {
       setInterval(async()=>{
       fetch(
